@@ -1,0 +1,78 @@
+body{
+ box-sizing: border-box;
+ font-family: "Poppin",sans-serif;
+}
+.container{
+    display: inline-block;
+    height: 100vh;
+    justify-content: center; 
+    width: 300px;
+}
+.container .btn1{
+    width: 93%;
+    height: 40px;
+    margin-left: 20px;
+    padding: 10px;
+    font-size: 28px;
+}
+.container .box-info{
+    display: inline-block;
+    border: lightgray solid 2px;
+}
+.container .box-info h3,
+.container .box-info small{
+    margin-right: 40px ;
+    font-size: 30px;
+}
+.container .box-info .img{
+    height: 300px;
+    width: 300px;
+}
+.container .box-info .img img{
+    width: 80%;
+    height: 80%;
+    margin: 30px 30px;
+}
+.container .number{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .number .btn{
+    height: 40px;
+    width: 40px;
+    margin: 5px;
+    border:white solid  2px;
+    border-radius: 5%;
+}
+.btn-danger{
+    background-color: red;
+    color: aliceblue;
+    font-size: 20px;
+    
+}
+.btn-secondary{
+    background-color: darkgray;
+    color: aliceblue;
+    font-size: 20px;
+}
+.btn-primery{
+    background-color:rgba(0, 153, 255, 0.842) ;
+    color: aliceblue;
+    font-size: 20px;
+}
+.t1{
+    background-color: forestgreen;
+}
+.t2{
+    background-color: blue;
+}
+.t3{
+    background-color: brown;
+}
+.t4{
+    background-color: chartreuse;
+}
+.t5{
+    background-color: aqua;
+}
